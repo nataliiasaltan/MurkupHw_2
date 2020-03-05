@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+span{
+    font-style: italic;
+}
+
+.box{
+    color: blue;
+}
+
+a[href^='https://'] {
+    color: red;
+}
+
+.list>li:last-child a{
+    background-color: blue;
+}
+
+ul + p{
+    font-size: 26px;
+}
+
+.holder + h3{
+    color: pink;
+}
+
+#greycol{
+    color: gray;
+}
+
+div:nth-of-type(3){
+    color: red;
+}
+
+p:nth-of-type(3){
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.bg-box{
+    height: 100vh;
+    margin: 50px 0;
+    background-color: green;
+    background-image: url(../image/image-1.jpg),  url(../image/image-2.png),  url(../image/image-3.png),  url(../image/image-4.png),  url(../image/image-5.png);
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+    background-position: center, bottom, top, left, right;
+    background-size: 580px 370px, 270px 140px, 45px 75px, 30px 30px, 35px 35px;
+}   

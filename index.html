@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- первое задание -->
+        <!--Так как внутренние стили имеют приоритет над внешними, но уступают встроенным стилям (заданным через атрибут style), то
+    приоритетней будет красный цвет, потом зелёный, потом  синий-->
+        <blockquote class="box" style="color: red;"
+            cite="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
+            <style>
+                .box{
+                    color: green;
+                }
+            </style>
+            <p>"HTML-элемент &#60;<span>blockquote</span>&#62; (от англ. Block
+                Quotation) указывает на то, что заключенный в нем текст является
+                развернутой цитатой. Обычно он (текст) визуально выделяется
+                наклонным. URI на источник цитаты можно указать в атрибуте
+                <span>cite</span>, тогда как текстовое представление источника
+                может быть задано элементом &#60;<span>cite</span>&#62;".
+            </p>
+            <cite>-MDN web docs</cite>
+        </blockquote>
+        <!-- Второе задание -->
+        <div class="holder">
+            <h1>Title</h1>
+            <ul class="list">
+                <li>
+                    <a href="#">link1</a>
+                    <ul>
+                        <li><a href="#">link2</a></li>
+                        <li><a href="#">link3</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.youtube.com/">link4</a></li>
+                <li><a href="https://validator.w3.org/">link5</a></li>
+                <li><a href="#">link6</a></li>
+            </ul>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
+                accusamus.</p>
+            <h1>Title</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <!-- Третье задание -->
+        <h3>Покрасьте меня в розовый цвет (color:pink).</h3>
+        <p>Данный элемент должен остаться неоформленным.</p>
+        <p id='greycol'>Покрасьте меня в серый цвет (color:grey).</p>
+        <div>Данный элемент должен остаться неоформленным.</div>
+        <div><p>Покрасьте меня в красный цвет (color:red).</p></div>
+        <h3>Данный элемент должен остаться неоформленным.</h3>
+        <p>Покрасьте меня в зеленый цвет (color:green).</p>
+        <p class='yellow'>Покрасьте меня в желтый цвет (color:yellow).</p>
+        <!-- четвертое задание -->
+        <div class="bg-box"></div>
+    </body>
+</html>
